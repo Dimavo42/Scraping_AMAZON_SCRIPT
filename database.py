@@ -56,7 +56,7 @@ class Control:
                 if cur is not None:
                     cur.close()
 
-    def find_lowest_price_or_highst(self, name,base):  ###The base of the function is to Diffine if the fine the order wanted
+    def find_lowest_price_or_highst(self, name,base):  ### BASE is GETTING the ORDER 1 is ascending ~~~~~ 2 is Descending 
         cur = self.con.cursor()
         exists = self.__checkTableExists('scrapy_{}'.format(name))
         if not exists:
