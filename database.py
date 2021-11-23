@@ -1,4 +1,5 @@
 import psycopg2
+### POSTGRES DATABASE HAVE TO BE INSTALLED TO WORK 
 
 class Control:
     def __init__(self,host,dbname,user,password,port):
